@@ -61,6 +61,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="5"
             android:drawableStart="@drawable/ic_datepicker"
+            android:textColor="@color/gray_400"
             android:text="@string/form_datepicker" />
 
         <Button
