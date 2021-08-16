@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">salo</string>
+    <string name="main_heading">Поиск дешевых авиабилетов</string>
+    <string name="form_origin">Нур-Султан (Астана)</string>
+    <string name="form_destination">Куда</string>
+    <string name="form_datepicker">Выбрать даты</string>
+    <string name="form_pax">1</string>
+    <string name="form_filters">Фильтры</string>
 </resources>
