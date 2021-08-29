@@ -1,7 +1,9 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Theme.Salo" parent="Theme.AppCompat.NoActionBar">
+    <style name="Theme.Salo" parent="Theme.AppCompat.Light.NoActionBar">
         <item name="colorPrimary">@color/blue_500</item>
+        <item name="colorAccent">@color/blue_500</item>
+        <item name="colorPrimaryDark">@color/blue_500</item>
     </style>
 
     <style name="FormInputButton" parent="Widget.AppCompat.Button">

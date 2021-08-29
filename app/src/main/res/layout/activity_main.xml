@@ -30,6 +30,7 @@
         android:orientation="vertical">
 
         <Button
+            android:id="@+id/originButton"
             style="@style/FormInputButton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -61,8 +62,8 @@
             android:layout_height="wrap_content"
             android:layout_weight="5"
             android:drawableStart="@drawable/ic_datepicker"
-            android:textColor="@color/gray_400"
-            android:text="@string/form_datepicker" />
+            android:text="@string/form_datepicker"
+            android:textColor="@color/gray_400" />
 
         <Button
             style="@style/FormButton"
@@ -73,7 +74,7 @@
             android:drawableStart="@drawable/ic_person"
             android:text="@string/form_pax" />
 
-        <com.google.android.material.button.MaterialButton
+        <Button
             style="@style/FormButton"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
